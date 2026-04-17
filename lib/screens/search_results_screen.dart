@@ -96,7 +96,7 @@ class _SearchResultsScreenState extends State<SearchResultsScreen> {
         itemBuilder: (context, index) {
           return AnimationConfiguration.staggeredList(
             position: index,
-            duration: const Duration(milliseconds=400),
+            duration: const Duration(milliseconds: 400),
             child: SlideAnimation(
               verticalOffset: 50,
               child: FadeInAnimation(

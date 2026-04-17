@@ -122,7 +122,7 @@ class ProductDetailScreen extends StatelessWidget {
                             : 'تمت الإضافة للمفضلة',
                         style: GoogleFonts.cairo(),
                       ),
-                      duration: const Duration(seconds=1),
+                      duration: const Duration(seconds: 1),
                       behavior: SnackBarBehavior.floating,
                     ),
                   );
